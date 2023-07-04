@@ -2,7 +2,7 @@ import { useFetch } from "../hooks/useFetch"
 import {Link} from 'react-router-dom'
 import './Products.css'
 
-const url = "http://localhost:3000/products"
+const url = "https://json-server-ruddy-iota.vercel.app/products"
 
 
 const Products = () => {
