@@ -7,7 +7,7 @@ const Search = () => {
 
   const [searchParams] = useSearchParams()
 
-  const url = "https://json-server-ruddy-iota.vercel.app/products?" + searchParams
+  const url = "https://json-server-lake-mu.vercel.app/products?" + searchParams
 
   const {data: items} = useFetch(url)
 
