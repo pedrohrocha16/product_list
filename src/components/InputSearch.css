@@ -1,0 +1,17 @@
+.search_input {
+   margin-top: 2rem;
+}
+.search_input input {
+   background-color: rgb(137, 208, 221);
+   border: 5px solid rgba(9, 163, 168, 0.76);
+   border-radius: 10px;
+   color: black;
+   font-weight: 600;
+   height: 25px;
+}
+.search_input button {
+   background: rgb(137, 208, 221);
+   border: 5px solid rgba(9, 163, 168, 0.76);
+   border-radius: 10px;
+   height: 38px;
+}

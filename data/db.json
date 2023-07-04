@@ -1,0 +1,39 @@
+{
+   "products": [
+      {
+         "id":1,
+         "name":"iPhone 14 Pro Max",
+         "price":6500.00
+      },
+      {
+         "id":2,
+         "name":"Drone Mavick",
+         "price":4500.00
+      },
+      {
+         "id":3,
+         "name":"Macbook Pro",
+         "price":6999.00
+      },
+      {
+         "id":4,
+         "name":"Bike Specialized Carbon",
+         "price":25000.00
+      },
+      {
+         "id":5,
+         "name":"GoPro 8",
+         "price":2500.00
+      },
+      {
+         "id":6,
+         "name":"Notebook Dell G5",
+         "price":4900.00
+      },
+      {
+         "id":7,
+         "name":"Violão Takamine GB7C",
+         "price":14000.00
+      }
+   ]
+}

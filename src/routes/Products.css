@@ -1,0 +1,33 @@
+.products {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.products ul {
+   background-color: rgba(0, 0, 0, 0.781);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 500px;
+   margin: 0;
+   padding: 0;
+   width: 310px;
+}
+.products li {
+   font-family: 'Roboto', sans-serif;
+   list-style: none;
+   height: 30px;
+}
+.item:first-child {
+   border-top: 1px solid white;
+}
+.item {
+   border-bottom: 1px solid white;
+   padding-bottom: 0.5rem;
+   padding-top: 0.5rem;
+}
+.item a {
+   color: rgb(50 255 238);
+   text-decoration: none;
+}

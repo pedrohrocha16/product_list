@@ -1,0 +1,25 @@
+html, body, #root {
+   align-items: center;
+   background: url('../src/img/pexels-jilly-noble-8425458.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   margin: 0 auto;
+   padding: 0;
+   text-align: center;
+   width: 100%;
+}
+#root {
+   background: linear-gradient(180deg, rgb(77 77 77 / 65%) 42%, rgb(0 24 51 / 75%) 76%);
+}
+body {
+   color: white;
+   font-family: 'Orbitron', sans-serif;
+}
+h3 {
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+}

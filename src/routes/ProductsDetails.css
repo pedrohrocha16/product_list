@@ -1,0 +1,20 @@
+.productDetails button {
+   background: rgb(137, 208, 221);
+   border: 5px solid rgba(9, 163, 168, 0.76);
+   border-radius: 10px;
+   font-size: 20px;
+   margin-top: 5rem;
+   width: 100px;
+}
+h4 {
+   color: #00fdff;
+}
+p {
+   color: #f9f400;
+   font-weight: 500;
+}
+img {
+   border: 15px solid #00e7ff30;
+   border-radius: 10px;
+   width: 250px;
+}
