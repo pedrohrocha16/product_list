@@ -5,18 +5,17 @@ export const useFetch = (url) => {
    const [data, setData] = useState(null)
 
    useEffect(() => {
-
-      async function fetchData() {
-
-         const res = await fetch(url)
-         const json = await res.json()
-
-         setData(json)
-      }
-
-      fetchData()
-
+      fetch(url, {
+         method:"GET",
+         headers: {
+            'Content-Type':'application/json'
+         }
+      })
+      .then((resp) => resp.json())
+      .then((data) => {
+         setData(data)
+      })
+      .catch((err) => console.log(err))      
    }, [url])
-
    return {data}
 }
