@@ -5,8 +5,6 @@ import { useFetch } from '../hooks/useFetch'
 
 const Search = () => {
 
-  const {id} = useParams()
-
   const [searchParams] = useSearchParams()
 
   const url = "https://json-server-ruddy-iota.vercel.app/products?" + searchParams
